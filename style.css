@@ -1,0 +1,406 @@
+/*
+Theme Name: moi-blog
+Theme URI: www.mitema.com
+Description: Mi primer tema de WP.
+Author: Moises Mannarino
+Author URI: www.tunombre.com
+Version: 1.0
+*/
+/*-----------generales............*/
+body{
+	background: #191919;
+	font-size: 12px;
+	font-family: "open sans",arial;
+	
+}
+header,#main,footer{
+	max-width: 960px;
+	margin:auto;
+}
+
+
+a{
+	color: #fff;
+	text-decoration: none;
+}
+a:hover{
+	color: #bf2222;
+}
+/*-----------header............*/
+header{
+	
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+header #logo {
+	width: 30%;
+	position: relative;
+	display: inline-block;
+	top: -25px;
+}
+header #logo p{
+	font-family: "Raleway";
+	font-size: 50px;
+	font-weight: 100;
+	text-align: left;
+	color: #fff;
+	margin-bottom: 0;
+}
+
+header #logo span{
+	font-family: "Raleway";
+	
+	font-weight: 400;
+	text-align: right;
+	color: #fff;
+	position: absolute;
+	right: 105px;
+
+	height: 30px;
+	margin-bottom: 20px;
+}
+
+
+
+header nav{
+	width: 65%;
+	display: inline-block;
+	position: relative;
+	height: 100px;
+	vertical-align: top;
+}
+
+header nav ul{
+	position: absolute;
+	right: 0;
+	top: 40px;
+	
+}
+header nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin-left: 30px;
+	margin-bottom: 10px;
+	font-size: 18px;
+	font-family: "Raleway";
+	font-weight: 300;
+}
+/*slideshow*/
+
+img{
+	width: 48%;
+	display: inline-block;
+	
+}
+.due{
+	width: 48%;
+	display: inline-block;
+	vertical-align: top;
+	padding: 6px;
+	
+	font-size: 16px;
+	text-align: justify;
+	color: #fff;
+}
+.due p{
+	margin-left: 10px;
+	font-family: "Raleway";
+	}
+.due h2{
+	font-size: 26px;
+	font-family: "Raleway";
+	font-weight: 300;
+	margin-top: 0px;
+	margin-left: 10px;
+	color: #bf2222;
+	margin-bottom: 0px;
+}
+.date{
+	font-size: 13px;
+	margin-top: 0px;
+	font-family: "Raleway";
+	font-weight: 500;
+	color: #777777;
+	margin-left: 10px;
+}
+ul.slidesjs-pagination {
+	padding-left: 0 !important;
+}
+.slidesjs-pagination li{
+	background: #fff;
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+	display: inline-block;
+}
+.slidesjs-pagination li a{
+	width: 20px;
+	height: 20px;
+	display: block;
+	font-size: 0px;
+}
+.slidesjs-pagination li .active{
+	background: #333333;
+}
+.cate{
+	margin-left: 5px;
+	font-size: 14px;
+	color: #bf2222;
+}
+
+section#articles_list{
+	width: 65%;
+	display: inline-block;
+}
+
+section#articles_list article{
+	padding-bottom: 40px;
+	font-size: 16px;
+	margin-bottom: 40px;
+	border-bottom: 1px solid #333333;
+}
+
+section#articles_list article .thumb{
+	width: 35%;
+	float: left;
+	margin-right: 4%;
+	margin-bottom: 2%;
+}
+#articles_list article h2{
+	font-family: "Raleway";
+	color: #fff;
+	font-weight: 300;
+	font-size: 22px;
+	margin-bottom: 0px;
+}
+
+#articles_list article .extract{
+	font-family: "Raleway";
+	color: #fff;
+	text-align: justify;
+}
+
+#articles_list #pagination{
+	margin-bottom: 40px;
+	width: 100%;
+	text-align: center;
+	margin: 0px 20px;
+	font-size: 20px;
+	font-family: "Raleway";
+	font-weight: 300;
+	
+}
+
+#articles_list #pagination a{
+	color: #bf2222;
+	margin-left: 10px;
+}
+
+#main aside{
+	width: 30%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+aside .widget{
+	margin-bottom: 50px;
+}
+ .widget h3{
+	font-family: "Raleway";
+	font-weight: 400;
+	color: #333333;
+	margin-bottom: 10px;
+	font-size: 24px;
+
+}
+
+.widget ul li{
+	list-style: none;
+	margin-bottom: 10px;
+	
+}
+
+.widget ul li a{
+	font-size: 13px;
+	color: #777777;
+
+}
+
+.widget ul li a:hover{
+	
+	color: #bf2222;
+
+}
+
+/*footer*/
+
+footer .widget{
+	width: 23%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+footer #copyright{
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+	color: #333333;
+	font-family: "Raleway";
+	font-size: 20px;
+}
+/* blog */
+#main #articles_list #blogTitle{
+	font-family: "Raleway";
+	font-size: 20px;
+	color: #333333;
+	font-weight: 500;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #333333;
+	margin-right: 30px;
+	padding-bottom: 10px;
+}
+/*comentarios*/
+#comentarios{
+	margin-bottom: 40px;
+	margin-right: 4%;
+}
+#comentarios h3{
+	font-family: "Raleway";
+	font-weight: 500;
+	margin-bottom: 20px;
+	color: #333333;
+	font-size: 20px;
+}
+#caja_comentarios{
+	height: 70px;
+	background: #ccc;
+}
+/*media queris*/
+
+@media screen and (max-width: 1000px)
+{
+	
+	header{
+		width: 90%;
+		margin: auto;
+	}
+	#main{
+		width: 90%;
+		margin: auto;
+	}
+}
+
+@media screen and (max-width: 720px)
+{
+	header nav ul li {
+		margin: 0px 5px 10px 0px;
+		background: #bf2222;
+		padding: 10px;
+	}
+	header nav ul li a:hover{
+		color: #fff;
+		background: #f6545a;
+	}
+
+	#main #articles_list #pagination p a  {
+		margin: 10px 20px 10px 20px;
+		background: #bf2222;
+		color: #fff;
+		padding: 10px;
+	}
+	header #logo{
+		width: 95%;
+		background: #333333;
+		padding: 10px;
+		margin: auto;
+		margin-top: 20px;
+		position: static;
+		padding-bottom: 30px;
+	}
+		header #logo p{
+		text-align: center;
+		margin-top: 0;
+	
+	}
+	header #logo span{
+		width: 100%;
+		text-align: center;
+		right: -60px;
+		
+	}
+	header nav{
+		text-align: center;
+		width: 95%;
+
+	}
+	header nav ul{
+		top: 0;
+		width: 95%;
+	}
+	header nav ul li{
+	width: 31%;
+	padding: 0;
+	}
+	header nav ul li a{
+		display: block;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	}
+	#main #no-slide{
+		display: none;
+	}
+	#main{
+		width: 90%;
+		margin: auto;
+	}
+	#main section#articles_list{
+	width: 95%;
+	}
+	#main aside{
+	width: 95%;
+	}
+	.widget{
+	width: 95%;
+	display: inline-block;
+	vertical-align: top;
+    }
+    .widget ul li{
+    	border-bottom: 1px solid #333333;
+    	padding: 10px 0px;
+
+    }
+    footer .widget{
+	width: 95%;
+	display: inline-block;
+	vertical-align: top;
+    }  
+
+}
+@media screen and (max-width: 440px)
+{
+	
+	.widget{
+	width: 95%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+    }
+    footer .widget{
+	width: 95%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+    } 
+     header nav {
+	width: 95%;
+	clear: both;
+	height: 160px;
+	} 
+    header nav ul li{
+	width: 100%;
+	padding: 0;
+	}
+}
